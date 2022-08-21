@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 export default function Login() {
   const handleClick = async () => {
-    const client_id = "18a48df8ab7141e088e076d7f4ae91fc";
-    const redirectUrl = "http://localhost:3000/";
+    const client_id = "ac8ec294d7ab4b44898ab1af50ce15a4";
+    const redirectUrl = "https://anishdhatwalia.github.io/Spotify_clone/";
     const api_uri = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-private",
